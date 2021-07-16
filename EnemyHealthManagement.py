@@ -26,7 +26,7 @@ while quit != True:
     print("2 - Change health of monsters")
     print("3 - Show current monsters in memory")
     print("4 - Save to text file")
-    print("Quit/Q/q - quit program - ") #unnecassary since user can just close program with X at top right of screen?
+    print("Quit/Q/q - quit program - ")
     userInput = input("Option selection: ")
     #first option - enter monsters
     if userInput == "1":
